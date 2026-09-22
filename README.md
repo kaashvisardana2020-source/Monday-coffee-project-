@@ -31,3 +31,76 @@ The analysis runs on a normalized relational database schema in **MySQL (v8.0+)*
        │ price        │             │ product_id   │
        └──────────────┘             │ total        │
                                     └──────────────┘
+Key Questions
+Coffee Consumers Count
+
+How many people in each city are estimated to consume coffee, given that 25% of the population does?
+
+Total Revenue from Coffee Sales
+
+What is the total revenue generated from coffee sales across all cities in the last quarter of 2023?
+
+Sales Count for Each Product
+
+How many units of each coffee product have been sold?
+
+Average Sales Amount per City
+
+What is the average sales amount per customer in each city?
+
+City Population and Coffee Consumers
+
+Provide a list of cities along with their populations and estimated coffee consumers.
+
+Top Selling Products by City
+
+What are the top 3 selling products in each city based on sales volume?
+
+Customer Segmentation by City
+
+How many unique customers are there in each city who have purchased coffee products?
+
+Average Sale vs Rent
+
+Find each city and their average sale per customer and avg rent per customer.
+
+Monthly Sales Growth
+
+Sales growth rate: Calculate the percentage growth (or decline) in sales over different time periods (monthly).
+
+Market Potential Analysis
+
+Identify top 3 city based on highest sales, return city name, total sale, total rent, total customers, estimated coffee consumer.
+
+🛠️ Advanced SQL Concepts Applied
+Multi-Table JOINs: Querying data across sales, customers, city, and products.
+
+Window Functions: Utilizing DENSE_RANK() OVER (PARTITION BY ...) for top-selling products and LAG() OVER (...) for MoM growth rate calculation.
+
+Common Table Expressions (CTEs): Structuring multi-step aggregated queries for clean readability.
+
+Aggregations & Ratios: Calculating Average Order Value (AOV), sales-to-rent ratios, and consumer market penetration.
+
+Recommendations
+After analyzing the data, the recommended top three cities for new store openings are:
+
+🥇 1. Pune
+Average rent per customer is very low.
+
+Highest total revenue generated.
+
+Average sales per customer is also high.
+
+🥈 2. Delhi
+Highest estimated coffee consumers at 7.7 million.
+
+Highest total number of customers (68 active buyers).
+
+Average rent per customer is ₹330 (under the ₹500 threshold).
+
+🥉 3. Jaipur
+Highest number of active customers (69 buyers).
+
+Average rent per customer is very low at ₹156.
+
+Average sales per customer is high at ₹11.6k.
