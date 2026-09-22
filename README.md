@@ -14,6 +14,7 @@ The analysis runs on a normalized relational database schema in **MySQL (v8.0+)*
 * `sales`: Detailed transaction records containing sale dates and total purchase amounts.
 
 Key Questions
+
 1 Coffee Consumers Count
 How many people in each city are estimated to consume coffee, given that 25% of the population does?
 
