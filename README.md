@@ -31,6 +31,7 @@ The analysis runs on a normalized relational database schema in **MySQL (v8.0+)*
        │ price        │             │ product_id   │
        └──────────────┘             │ total        │
                                     └──────────────┘
+
 Key Questions
 Coffee Consumers Count
 
