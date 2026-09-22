@@ -67,21 +67,24 @@ Aggregations & Ratios: Calculating Average Order Value (AOV), sales-to-rent rati
 Recommendations
 After analyzing the data, the recommended top three cities for new store openings are:
 
-🥇 1. Pune
+1. Pune
+
 Average rent per customer is very low.
 
 Highest total revenue generated.
 
 Average sales per customer is also high.
 
-🥈 2. Delhi
+ 2. Delhi
+
 Highest estimated coffee consumers at 7.7 million.
 
 Highest total number of customers (68 active buyers).
 
 Average rent per customer is ₹330 (under the ₹500 threshold).
 
-🥉 3. Jaipur
+3. Jaipur
+   
 Highest number of active customers (69 buyers).
 
 Average rent per customer is very low at ₹156.
