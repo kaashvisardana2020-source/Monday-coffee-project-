@@ -108,7 +108,7 @@ on c.city_id = cs.city_id
 join sales s 
 on s.customer_id =cs.customer_id
 join products p
-on p.product_id
+on p.product_id = s.prodouct_id
 where p.product_id between 1 and 14
 group by c.city_name;
 
