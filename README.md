@@ -13,25 +13,6 @@ The analysis runs on a normalized relational database schema in **MySQL (v8.0+)*
 * `products`: Coffee SKU catalog, prices, and product mapping.
 * `sales`: Detailed transaction records containing sale dates and total purchase amounts.
 
-```text
-       ┌──────────────┐             ┌──────────────┐
-       │     city     │             │  customers   │
-       ├──────────────┤             ├──────────────┤
-       │ city_id (PK) │─── 1:N ───► │ customer_id  │
-       │ city_name    │             │ city_id (FK) │
-       │ population   │             └──────┬───────┘
-       │ est_rent     │                    │
-       └──────────────┘                    │ 1:N
-                                           ▼
-       ┌──────────────┐             ┌──────────────┐
-       │   products   │             │    sales     │
-       ├──────────────┤             ├──────────────┤
-       │ product_id   │─── 1:N ───► │ sale_id (PK) │
-       │ product_name │             │ customer_id  │
-       │ price        │             │ product_id   │
-       └──────────────┘             │ total        │
-                                    └──────────────┘
-
 Key Questions
 1 Coffee Consumers Count
 How many people in each city are estimated to consume coffee, given that 25% of the population does?
